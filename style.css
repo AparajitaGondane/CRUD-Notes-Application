@@ -1,0 +1,25 @@
+#myTable .dt-layout-table{
+  overflow: scroll;
+}
+.heading{
+  font-size: 25px;
+  font-weight: 700;
+}
+tbody tr:nth-child(even){
+  background: red!important;
+}
+
+
+/* -------media query----------- */
+@media screen and (max-width:767px) {
+  #myTable .edit{
+    margin-bottom: 10px;
+    width: 70px;
+  }
+  #myTable .delete{
+    width: 70px;
+  }
+  .heading{
+    text-align: center;
+  }
+}
